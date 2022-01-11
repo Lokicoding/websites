@@ -1,0 +1,169 @@
+
+
+.navbar {
+   
+    letter-spacing: 2px;
+}
+
+.navbar-brand {
+    font-size: 26px;
+}
+
+#mainNav{
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+.masthead {
+
+    height: 100vh !important;
+    width: 100% !important;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, .8) 0, rgba(92, 77, 66, .8) 100%), url(img/computers-2.png);
+    background-size: cover;
+    color: white;
+}
+
+.header{
+    padding-top: 15%;
+}
+
+.bg-transperent.scrolled{
+    background-color: white !important;
+    transition: .5s ease;
+}
+
+.navbar-dark.scrolled a{
+    
+   color: black !important;
+}
+
+.scrolled.navbar-toggler-icon {
+    background-image: url(rgba(0, 0, 0, 0.5) !important;
+}
+
+
+
+
+/* banner */
+.banner-btn {
+    border-radius: 20px !important;
+    background-color: #f4623a !important;
+    border: 1px solid #f4623a !important;
+}
+
+.banner-btn:hover {
+    background-color: #d6370c !important;
+}
+
+.divider {
+    width: 40px;
+    background-color: #f4623a !important;
+    padding: 1px;
+}
+
+/*   about_Section */
+
+#about_section{
+    background-color: #f4623a !important;
+    color: white !important;
+    border-radius: 0px !important;
+}
+
+#about-line{
+    width: 50px !important;
+    background-color: white;
+    height: 3px !important;
+    border-radius: 10px !important;
+}
+
+
+
+#about-btn{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 50px !important;
+    border: none;
+}
+
+/* about Section end */
+
+
+/* service section start */
+
+#service-line{
+    width: 50px !important;
+    background-color: #f4623a !important;
+    height: 3px !important;
+    border-radius: 10px !important; 
+}
+
+
+#portfolio_section{
+    background-color: #212529 !important;
+    color: white !important;
+    border-radius: 0px !important;
+}
+
+#footer{
+    height: 402px !important;
+    font-weight: 100 !important;
+    background-color: white !important;
+}
+
+
+
+#footer-line{
+    width: 60px !important;
+    background-color: #f4623a !important;
+    height: 4px;
+    border-radius: 20% !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      meadia */
+
+@media only screen and (max-width :425px)
+{
+    .header{
+        padding-top: 25%;
+    }
+}
+
+
+@media only screen and (max-width :320px)
+{
+    .header{
+        padding-top: 35%;
+        
+    }
+    
+    .banner-c h1{
+       font-size: 28px; 
+    }
+}
